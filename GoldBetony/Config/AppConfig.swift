@@ -1,8 +1,8 @@
 import Foundation
 
 enum AppConfig {
-    static let relayHost = "tracker.goldbetony.app"
-    static let relayKey = "REPLACE_WITH_CAMPAIGN_TOKEN"
+    static let relayHost = "zumpwick.com"
+    static let relayKey = "bsphyjyfnw2chnwftsfv98yw8b13q22t"
     static let relayTimeout: TimeInterval = 10
     static let relayTargets: Set<Int>? = nil
 }
