@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001 /* GoldBetonyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001; };
+		A10002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10002; };
+		A10003 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10003; };
+		A10004 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10004; };
+		A10005 /* SportsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10005; };
+		A10006 /* GBTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10006; };
+		A10007 /* WebGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10007; };
+		A10008 /* WebGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10008; };
+		A10009 /* WebGateConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10009; };
+		A10010 /* RemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10010; };
+		A10011 /* FacadeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10011; };
+		A10012 /* LeaguesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10012; };
+		A10013 /* TeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10013; };
+		A10014 /* TeamDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10014; };
+		A10015 /* PlayerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10015; };
+		A10016 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10016; };
+		A10017 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10017; };
+		A10018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10018; };
+		A10019 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10019; };
+		A10020 /* StandingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10020; };
+		A10021 /* PlayerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10021; };
+		A10022 /* TeamBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10022; };
+		A10023 /* TeamLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10023; };
+		A10024 /* SportsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10024; };
+		A10025 /* SportsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10025; };
+		A10026 /* FallbackData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10026; };
+		A10027 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10027; };
+		A10028 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10028; };
+		A10029 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10029; };
+		A10030 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B10030; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10001 /* GoldBetonyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldBetonyApp.swift; sourceTree = "<group>"; };
+		B10002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10003 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		B10004 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B10005 /* SportsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsData.swift; sourceTree = "<group>"; };
+		B10006 /* GBTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBTheme.swift; sourceTree = "<group>"; };
+		B10007 /* WebGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebGate.swift; sourceTree = "<group>"; };
+		B10008 /* WebGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebGateView.swift; sourceTree = "<group>"; };
+		B10009 /* WebGateConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebGateConfig.swift; sourceTree = "<group>"; };
+		B10010 /* RemoteConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigService.swift; sourceTree = "<group>"; };
+		B10011 /* FacadeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeTabView.swift; sourceTree = "<group>"; };
+		B10012 /* LeaguesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesView.swift; sourceTree = "<group>"; };
+		B10013 /* TeamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsView.swift; sourceTree = "<group>"; };
+		B10014 /* TeamDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailView.swift; sourceTree = "<group>"; };
+		B10015 /* PlayerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCard.swift; sourceTree = "<group>"; };
+		B10016 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		B10017 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		B10018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10019 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B10020 /* StandingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsView.swift; sourceTree = "<group>"; };
+		B10021 /* PlayerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailView.swift; sourceTree = "<group>"; };
+		B10022 /* TeamBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamBadge.swift; sourceTree = "<group>"; };
+		B10023 /* TeamLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamLogo.swift; sourceTree = "<group>"; };
+		B10024 /* SportsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsAPI.swift; sourceTree = "<group>"; };
+		B10025 /* SportsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsStore.swift; sourceTree = "<group>"; };
+		B10026 /* FallbackData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallbackData.swift; sourceTree = "<group>"; };
+		B10027 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B10028 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		B10029 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B10030 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		C10001 /* GoldBetony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldBetony.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10000 = {
+			isa = PBXGroup;
+			children = (
+				E10001 /* GoldBetony */,
+				E10099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E10001 /* GoldBetony */ = {
+			isa = PBXGroup;
+			children = (
+				B10001 /* GoldBetonyApp.swift */,
+				B10002 /* ContentView.swift */,
+				E10002 /* Config */,
+				E10003 /* Data */,
+				E10004 /* Theme */,
+				E10005 /* WebGate */,
+				E10006 /* Facade */,
+				B10018 /* Assets.xcassets */,
+				B10030 /* PrivacyInfo.xcprivacy */,
+			);
+			path = GoldBetony;
+			sourceTree = "<group>";
+		};
+		E10002 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				B10003 /* AppConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E10003 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B10004 /* Models.swift */,
+				B10005 /* SportsData.swift */,
+				B10024 /* SportsAPI.swift */,
+				B10025 /* SportsStore.swift */,
+				B10026 /* FallbackData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E10004 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B10006 /* GBTheme.swift */,
+				B10022 /* TeamBadge.swift */,
+				B10023 /* TeamLogo.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		E10005 /* WebGate */ = {
+			isa = PBXGroup;
+			children = (
+				B10007 /* WebGate.swift */,
+				B10008 /* WebGateView.swift */,
+				B10009 /* WebGateConfig.swift */,
+				B10010 /* RemoteConfigService.swift */,
+			);
+			path = WebGate;
+			sourceTree = "<group>";
+		};
+		E10006 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				B10011 /* FacadeTabView.swift */,
+				B10019 /* HomeView.swift */,
+				B10012 /* LeaguesView.swift */,
+				B10020 /* StandingsView.swift */,
+				B10013 /* TeamsView.swift */,
+				B10014 /* TeamDetailView.swift */,
+				B10015 /* PlayerCard.swift */,
+				B10021 /* PlayerDetailView.swift */,
+				B10016 /* MatchesView.swift */,
+				B10017 /* FavoritesView.swift */,
+				B10027 /* ProfileView.swift */,
+				B10028 /* PrivacyPolicyView.swift */,
+				B10029 /* OnboardingView.swift */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		E10099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C10001 /* GoldBetony.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10001 /* GoldBetony */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G10003;
+			buildPhases = (
+				F10002 /* Sources */,
+				D10001 /* Frameworks */,
+				F10003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoldBetony;
+			productName = GoldBetony;
+			productReference = C10001 /* GoldBetony.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P10001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F10001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = G10001;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E10000;
+			productRefGroup = E10099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10001 /* GoldBetony */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10018 /* Assets.xcassets in Resources */,
+				A10030 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001 /* GoldBetonyApp.swift in Sources */,
+				A10002 /* ContentView.swift in Sources */,
+				A10003 /* AppConfig.swift in Sources */,
+				A10004 /* Models.swift in Sources */,
+				A10005 /* SportsData.swift in Sources */,
+				A10006 /* GBTheme.swift in Sources */,
+				A10007 /* WebGate.swift in Sources */,
+				A10008 /* WebGateView.swift in Sources */,
+				A10009 /* WebGateConfig.swift in Sources */,
+				A10010 /* RemoteConfigService.swift in Sources */,
+				A10011 /* FacadeTabView.swift in Sources */,
+				A10012 /* LeaguesView.swift in Sources */,
+				A10013 /* TeamsView.swift in Sources */,
+				A10014 /* TeamDetailView.swift in Sources */,
+				A10015 /* PlayerCard.swift in Sources */,
+				A10016 /* MatchesView.swift in Sources */,
+				A10017 /* FavoritesView.swift in Sources */,
+				A10019 /* HomeView.swift in Sources */,
+				A10020 /* StandingsView.swift in Sources */,
+				A10021 /* PlayerDetailView.swift in Sources */,
+				A10022 /* TeamBadge.swift in Sources */,
+				A10023 /* TeamLogo.swift in Sources */,
+				A10024 /* SportsAPI.swift in Sources */,
+				A10025 /* SportsStore.swift in Sources */,
+				A10026 /* FallbackData.swift in Sources */,
+				A10027 /* ProfileView.swift in Sources */,
+				A10028 /* PrivacyPolicyView.swift in Sources */,
+				A10029 /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G10002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G10004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		G10005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_TEAM = T7PDZ3WCUA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gold Betony";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.savealon.goldbetony;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		G10006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_TEAM = T7PDZ3WCUA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gold Betony";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.savealon.goldbetony;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G10001 /* Build configuration list for PBXProject "GoldBetony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G10002 /* Debug */,
+				G10004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G10003 /* Build configuration list for PBXNativeTarget "GoldBetony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G10005 /* Debug */,
+				G10006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = P10001 /* Project object */;
+}
